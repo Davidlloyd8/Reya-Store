@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.description {
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.card {
+  box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.18);
+  display: flex;
+  min-width: 80%;
+  max-height: 60vh;
+  overflow: hidden;
+  gap: 3rem;
+}
+
+.card h5 {
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.card span {
+  font-size: 1.5rem;
+  display: block;
+}
+
+.card button {
+  border: none;
+  display: block;
+  background-color: #003566;
+  color: white;
+  font-size: 18px;
+  margin-top: 4rem;
+  padding: 0.7rem 3rem;
+  border-radius: 10px;
+  cursor: pointer;
+}

@@ -31,7 +31,8 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.box1, .box2 {
+.box1,
+.box2 {
   display: flex;
   width: 50%;
   height: auto;
@@ -72,6 +73,7 @@ form p {
   font-size: 18px;
   font-weight: 600;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 430px) {
@@ -79,7 +81,8 @@ form p {
     width: 100%;
     margin: 0;
   }
-  .box1, .box2 {
+  .box1,
+  .box2 {
     width: 100% !important;
   }
 }
